@@ -1,4 +1,4 @@
-public class MinimoComune {
+public class Comune {
      /**
      * Calcola il minimo comune multiplo di 2 numeri.
      *

@@ -4,7 +4,7 @@ public class App {
      * @param args Argomenti di linea di comando.
      */
     public static void main(String[] args) throws Exception {
-        Utenti login = new Utenti();
+        LoginSystem login = new LoginSystem();
         login.Autenticazione();
     }
 }

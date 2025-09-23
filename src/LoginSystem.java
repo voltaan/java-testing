@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
-public class Utenti {
+public class LoginSystem {
     ArrayList<Utente> arrayUtenti;
 
     public void Autenticazione() {
@@ -45,9 +45,7 @@ public class Utenti {
 
     }
 
-    public Utenti() {
+    public LoginSystem() {
         arrayUtenti = new ArrayList<Utente>();
-        arrayUtenti.add(new Utente("Gio", "Vol", "1234", 1));
-        arrayUtenti.add(new Utente("Riky360", "Trabu", "5678", 2));
     }
 }
